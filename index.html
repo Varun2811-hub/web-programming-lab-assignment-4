@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel ="icon" href = "formicon.png" type = "iamge/png">
+</head>
+<body>
+    <h1> Registration Form</h1>
+    <form action = "#">
+        <table border="5" width="500px" cellpadding="5" cellspacing="0" >
+            
+            <tbody>
+                <th bgcolor = "#ADD8E6" colspan = "2">Personal Details</th>
+                <tr><td>First name:*</td><td><input type = "text" name = "first_name" id = "" required></td></tr>
+                <tr><td>Last name:*</td><td><input type = "text" name = "last_name" id = "" required></td></tr>
+                <tr><td>Email:*</td><td><input type = "email" name = "email" id = "" required></td></tr>
+                <tr><td>Phone No.:</td><td><input type = "number" name = "phone" id ="" size = "10" maxlength= "10"></td></tr>
+
+                <th bgcolor = "#ADD8E6" colspan = "2">Account Details</th>
+                <tr><td>Username:*</td><td><input type = "text" name = "username" id = "" required></td></tr>
+                <tr><td>Password:*</td><td><input type = "password" name = "password" id = "" required></td></tr>
+                <tr><td>Confirm Password:*</td><td><input type = "password" name = "password" id = "" required></td></tr>
+
+                <th bgcolor = "#ADD8E6" colspan = "2">Address</th>
+                <tr><td>Address Line 1:*</td><td><input type = "text" name = "address" id = "" required></td></tr>
+                <tr><td>Address Line 2:</td><td><input type = "text" name = "address" id = "" ></td></tr>
+                <tr><td>City:</td><td><input type = "text" name = "city" id = "" required></td></tr>
+                <tr><td>State:</td><td><select name = "state" id = "">
+                        <option value = "--Select State--">--Select State</option>
+                        <option value = "Haryana">Haryana</option>
+                        <option value = "Rajasthan">Rajasthan</option>
+                        <option value = "Punjab">Punjab</option>
+                        <option value = "Chhatishgarh">Chhatisgarh</option>
+                        <option value = "Uttar Pradesh">Uttar Pradesh</option>
+                        <option value = "Uttarakhand">Uttarakhand</option>
+                        <option value = "Bihar">Bihar</option>
+                        <option value = "Telangana">Telangana</option>
+                    </select></td></tr>
+                <tr><td>ZIP Code:*</td><td><input type = "number" name = "code" id="" size = "6" required></td></tr>
+
+                <th bgcolor = "#ADD8E6" colspan = "2">Preferences</th>
+                <tr><td>Gender:*</td><td><span><input type = "radio" name = "gender" id = "" required>Male</span>
+                <span><input type = "radio" name = "gender" id = "" required>Female</span>
+                <span><input type = "radio" name = "gender" id = "" required>Others</span></td></tr>
+                <tr><td>Subscribe Newsletter:</td><td><input type = "checkbox" name ="checkbox" id = ""></td></tr>
+                <tr><td>Short Bio:</td><td><textarea name ="bio" id = "" cols = "45" rows = "5">Tell us about yourself...</textarea></td></tr>
+                <tr><th colspan = "2"><input type = "checkbox" name="agree" id = "" required>I agree to the Terms and Conditions*</th></tr>
+                <th colspan = "2"><input type = "submit" value = "Register"><input type = "reset" value = "Reset"></th>
+            </tbody>
+        </table>
+        <hr>
+        <h2>Terms and Conditions</h2>
+        <div class = "terms" style = "border:2px solid black; width:40% ; padding:10px;">
+        <h3>Terms and Conditions</h3>
+        <p>Welcome to our Registration Portal!. By registering, you agree to the following terms and conditions:</p>
+    <ul>
+        <li>You must provide accurate and complete information.</li>
+        <li>Your password must be confidential.</li>
+        <li>We reserve the right to cancel accounts that violate our policies.</li>
+        <li>All data is processed according to our privacy policy.</li>
+        <li>Use the form responsibly.</li>
+    </ul></div>
+    </form>
+</body>
+</html>
